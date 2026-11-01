@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --color-bg-canvas: #f8fafc;
+  --color-bg-card: #ffffff;
+  --color-bg-elevated: #f1f5f9;
+  --color-bg-subtle: #e2e8f0;
+  --color-border: #e2e8f0;
+  --color-border-subtle: #cbd5e1;
+  --color-text-main: #0f172a;
+  --color-text-muted: #334155;
+  --color-text-faint: #64748b;
+}
+
+html.dark {
+  color-scheme: dark;
+  --color-bg-canvas: #070a10;
+  --color-bg-card: #0b101b;
+  --color-bg-elevated: #101726;
+  --color-bg-subtle: #152033;
+  --color-border: #1e293b;
+  --color-border-subtle: #334155;
+  --color-text-main: #f8fafc;
+  --color-text-muted: #cbd5e1;
+  --color-text-faint: #94a3b8;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-bg-canvas);
+    color: var(--color-text-main);
+    overflow-x: hidden;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--color-bg-card);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-border);
+    border-radius: 4px;
+    border: 1px solid var(--color-border-subtle);
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0284c7;
+  }
+}
+
+/* Light mode text & border adjustments */
+html:not(.dark) .text-white {
+  color: #0f172a !important;
+}
+
+html:not(.dark) .text-slate-100 {
+  color: #0f172a !important;
+}
+
+html:not(.dark) .text-slate-200 {
+  color: #1e293b !important;
+}
+
+html:not(.dark) .text-slate-300 {
+  color: #334155 !important;
+}
+
+html:not(.dark) .text-slate-400 {
+  color: #64748b !important;
+}
+
+html:not(.dark) .border-slate-800 {
+  border-color: #e2e8f0 !important;
+}
+
+html:not(.dark) .border-slate-700 {
+  border-color: #cbd5e1 !important;
+}
+
+html:not(.dark) .bg-slate-800 {
+  background-color: #f1f5f9 !important;
+}
+
+html:not(.dark) .bg-slate-900 {
+  background-color: #e2e8f0 !important;
+}
+
+html:not(.dark) .bg-dark-950 {
+  background-color: #f8fafc !important;
+}
+
+html:not(.dark) .bg-dark-900 {
+  background-color: #ffffff !important;
+}
+
+/* Subtle glow effects */
+.subtle-glow-cyan {
+  box-shadow: 0 0 20px -5px rgba(0, 229, 255, 0.15);
+}
+
+.subtle-glow-blue {
+  box-shadow: 0 0 25px -5px rgba(37, 99, 235, 0.2);
+}
+
+/* Code block highlight */
+.code-token-keyword {
+  color: #0284c7;
+}
+.code-token-class {
+  color: #0891b2;
+}
+.code-token-string {
+  color: #16a34a;
+}
+.code-token-comment {
+  color: #64748b;
+}
+.code-token-annotation {
+  color: #d97706;
+}
+
+.dark .code-token-keyword {
+  color: #38bdf8;
+}
+.dark .code-token-class {
+  color: #00e5ff;
+}
+.dark .code-token-string {
+  color: #a3e635;
+}
+.dark .code-token-comment {
+  color: #64748b;
+}
+.dark .code-token-annotation {
+  color: #f59e0b;
+}

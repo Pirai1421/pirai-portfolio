@@ -1,0 +1,63 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 720 >>
+stream
+BT
+/F1 18 Tf
+50 720 Td
+(Pirai Soodan G. - Java Backend Engineer) Tj
+/F1 10 Tf
+0 -24 Td
+(Email: piraigps25@gmail.com | LinkedIn: /in/pirai-soodan-g-99a79722b | GitHub: /Pirai1421) Tj
+0 -30 Td
+/F1 14 Tf
+(PROFESSIONAL EXPERIENCE) Tj
+/F1 10 Tf
+0 -18 Td
+(Associate Software Engineer - Purchasing Power [July 2025 - Present]) Tj
+0 -14 Td
+(- Modernized 8 microservices from Java 11 to Java 17; upgraded Spring Boot 2.x to 3+.) Tj
+0 -14 Td
+(- Developed REST APIs, business logic, persistence with Spring Data JPA/Hibernate.) Tj
+0 -14 Td
+(- Implemented health-check monitoring for third-party vendor APIs.) Tj
+0 -20 Td
+(Software Engineer Intern - Purchasing Power [Jan 2025 - July 2025]) Tj
+0 -14 Td
+(- Enhanced Java/Spring Boot backend, REST APIs, Hibernate, bug fixes, integration testing.) Tj
+0 -28 Td
+/F1 14 Tf
+(EDUCATION & AWARDS) Tj
+/F1 10 Tf
+0 -18 Td
+(B.Tech in Computer and Communication Engineering - Amrita Vishwa Vidyapeetham, CGPA: 8.3/10) Tj
+0 -16 Td
+(STAR Award Q2 2026 - Purchasing Power Best Employee and Star Performer of the Quarter) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000244 00000 n 
+0000001017 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1088
+%%EOF
